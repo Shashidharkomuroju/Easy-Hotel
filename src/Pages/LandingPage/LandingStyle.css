@@ -1,0 +1,261 @@
+/* ......Hero....... */
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.hero button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background-color: rgb(95, 138, 138);
+}
+
+.hero .hotel {
+  background-color: #07689f;
+}
+
+.hero .hotel a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .....Home-1..... */
+
+.hero1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero1 .hero1-img img {
+  width: 100%;
+}
+
+.hero1 .hero1-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 280px;
+  left: 60px;
+  color: white;
+  gap: 20px;
+}
+
+@media (max-width: 1000px) {
+  .hero1 .hero1-content h1 {
+    font-size: 20px;
+  }
+  .hero1 .hero1-content h2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 870px) {
+  .hero1 .hero1-content {
+    top: 320px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero1 .hero1-content {
+    top: 320px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero1 .hero1-content h1 {
+    font-size: 13px;
+  }
+  .hero1 .hero1-content h2 {
+    font-size: 10px;
+  }
+  .hero1 .hero1-content {
+    top: 380px;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 300px) {
+  .hero1 .hero1-content h1 {
+    font-size: 10px;
+  }
+  .hero1 .hero1-content h2 {
+    font-size: 8px;
+  }
+}
+
+/* **********HOME--2********** */
+
+.home2-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.home2-btn button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color:dodgerblue;
+  font-weight: 600;
+}
+.home2-btn button span{
+  display: inline-block;
+  transform: scale(4, 3);
+}
+/* ........Home-3......... */
+
+.home2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 40px;
+  gap: 20px;
+}
+
+.home2 .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home2 .home2-img img {
+  padding: 5px 5px;
+}
+
+@media (max-width: 700px) {
+  .home2 .home2-img img {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .home2 .home2-img img {
+    width: 360px;
+  }
+  .home2 {
+    padding: 40px 0px;
+  }
+}
+
+/* ......Home-4........ */
+
+.home3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.home3 .cards {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  padding: 20px 0px;
+}
+
+.home3 .home3-heading {
+  text-align: center;
+}
+
+.home3 .cards p {
+  font-size: 12px;
+}
+
+.home3 .cards h4 {
+  color: #a6a6a6;
+}
+
+@media (max-width: 1150px) {
+  .home3 .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .home3 .cards p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .home3 .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .home3 .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* .....Home-5........ */
+
+.home4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.home4 .home4-heading {
+  text-align: center;
+}
+
+.home4 .home4-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 80px;
+}
+
+@media (max-width: 950px) {
+  .home4 .home4-card {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home4 .home4-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

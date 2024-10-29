@@ -1,0 +1,345 @@
+.single-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.single-page .single-img img {
+  width: 550px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ****** Form ********* */
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  /* background-color: blue; */
+}
+
+.form .inputs-box,
+.inputs-box1,
+.inputs-box2,
+.inputs-box3,
+.inputs-box4,
+.inputs-box5,
+.inputs-box6,
+.inputs-box7 {
+  padding: 20px 0px;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.form .inputs-box input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box1 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box2 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box3 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box4 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box5 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box6 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form .inputs-box7 input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+ button{
+    height: 40px;
+    width: 140px;
+    background-color:thistle;
+    outline: black;
+    border: 1px solid black;
+    color: black;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .single-page {
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .single-page .single-img img {
+      width: 100%;
+    }
+  
+    .form {
+      padding: 20px 0px;
+      width: 100%;
+    }
+  
+    .form .inputs-box input,
+    .form .inputs-box1 input,
+    .form .inputs-box2 input,
+    .form .inputs-box3 input,
+    .form .inputs-box4 input,
+    .form .inputs-box5 input,
+    .form .inputs-box6 input,
+    .form .inputs-box7 input {
+      width: 100%;
+    }
+  
+    label {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  /* Tablets (min-width: 600px and max-width: 1024px) */
+  @media only screen and (min-width: 600px) and (max-width: 850px) {
+    .single-page {
+      flex-direction: column;
+      padding: 30px;
+      gap: 20px;
+    }
+  
+    .single-page .single-img img {
+      width: 450px;
+    }
+
+    .single-page .single-content{
+        text-align: center;
+    }
+  
+    .form {
+      padding: 30px 0px;
+      width: 80%;
+    }
+  
+    .form .inputs-box input,
+    .form .inputs-box1 input,
+    .form .inputs-box2 input,
+    .form .inputs-box3 input,
+    .form .inputs-box4 input,
+    .form .inputs-box5 input,
+    .form .inputs-box6 input,
+    .form .inputs-box7 input {
+      width: 250px;
+    }
+  
+    label {
+      width: 120px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 1024px){
+    .single-page {
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+      }
+    
+      .single-page .single-img img {
+        width: 450px;
+      }
+  
+      .single-page .single-content{
+          text-align: center;
+      }
+    
+      .form {
+        padding: 30px 0px;
+        width: 80%;
+      }
+    
+      .form .inputs-box input,
+      .form .inputs-box1 input,
+      .form .inputs-box2 input,
+      .form .inputs-box3 input,
+      .form .inputs-box4 input,
+      .form .inputs-box5 input,
+      .form .inputs-box6 input,
+      .form .inputs-box7 input {
+        width: 250px;
+      }
+    
+      label {
+        width: 120px;
+      }
+    
+      button {
+        width: 100%;
+      }
+    } 
+
+  /* Desktops (min-width: 1024px) */
+  @media only screen and (min-width: 1024px) {
+    .single-page {
+      flex-direction: row;
+      padding: 40px;
+      gap: 30px;
+    }
+  
+    .single-page .single-img img {
+      width: 550px;
+    }
+
+  
+    .form {
+      width: 60%;
+    }
+  
+    .form .inputs-box input,
+    .form .inputs-box1 input,
+    .form .inputs-box2 input,
+    .form .inputs-box3 input,
+    .form .inputs-box4 input,
+    .form .inputs-box5 input,
+    .form .inputs-box6 input,
+    .form .inputs-box7 input {
+      width: 300px;
+    }
+  
+    label {
+      width: 150px;
+      font-size: 18px;
+    }
+  
+    button {
+      width: 140px;
+    }
+  }
+
+  /* Devices with max-width of 520px */
+@media only screen and (max-width: 520px) {
+    .single-page {
+      flex-direction: column;
+      padding: 15px;
+      gap: 15px;
+    }
+  
+    .single-page .single-img img {
+      width: 100%; /* Make the image responsive and fill the width */
+    }
+  
+    .single-content h2 {
+      font-size: 24px; /* Adjust font size for better readability */
+    }
+  
+    .single-content p,
+    .single-content h5 {
+      font-size: 14px; /* Smaller text for mobile readability */
+    }
+  
+    .form {
+      padding: 20px 0px;
+      width: 100%;
+    }
+  
+    .form .inputs-box input,
+    .form .inputs-box1 input,
+    .form .inputs-box2 input,
+    .form .inputs-box3 input,
+    .form .inputs-box4 input,
+    .form .inputs-box5 input,
+    .form .inputs-box6 input,
+    .form .inputs-box7 input {
+      width: 100%; /* Full width for input fields on small screens */
+    }
+  
+    label {
+      width: 100%; /* Label aligns above the input */
+      font-size: 16px; /* Slightly smaller label text */
+    }
+  
+    button {
+      width: 100%; /* Button takes full width for better touch interaction */
+      height: 45px; /* Slightly taller button for easier tapping */
+      font-size: 16px; /* Adjust font size for button text */
+    }
+  
+    .total-price h3 {
+      font-size: 18px; /* Adjust the total price text size for small screens */
+    }
+  }
+  

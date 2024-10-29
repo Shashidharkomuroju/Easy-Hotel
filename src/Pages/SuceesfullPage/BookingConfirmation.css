@@ -1,0 +1,53 @@
+/* BookingConfirmation.css */
+
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background for contrast */
+  }
+  
+  .confirmation-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-details, .customer-details, .payment-details {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .confirmation-message h4 {
+    color: green;
+    margin-top: 30px;
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .confirmation-box {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  

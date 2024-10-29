@@ -1,0 +1,197 @@
+/* .......Details.......... */
+
+.main-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.main-1 .heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: #07689f;
+  gap: 30px;
+}
+
+.main-1 .details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-1 .details .part-1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+}
+
+.main-1 .details .part-2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+}
+
+.main-1 .cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-1 .cont .part1-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.main-1 .cont .part1-content .boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
+
+.main-1 .cont .part1-content .boxes .box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-1 .cont .btn {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-1 .cont .btn a {
+  width: 160px;
+  height: 40px;
+  background-color: #07689f;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .main-1 .details {
+    flex-wrap: wrap;
+  }
+  .main-1 .details .part-1 {
+    width: 100%;
+  }
+
+  .main-1 .details .part-2 {
+    width: 100%;
+  }
+
+  .main-1 .cont .part1-content .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .main-1 .cont .part1-content {
+    width: 100%;
+  }
+  .main-1 .cont .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.faq {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.faq .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.faq .faq-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.faq .faq-items .faq-data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.faq .faq-items .question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq .faq-items .question img {
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answers {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answers.show {
+  height: auto;
+  max-height: 999999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.reverse {
+  transform: rotate(180deg);
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}

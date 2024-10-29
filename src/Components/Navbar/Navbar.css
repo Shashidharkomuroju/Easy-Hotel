@@ -1,0 +1,139 @@
+/* .............Before Login........... */
+
+.before-login {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.before-login input {
+  width: 280px;
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.before-login .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.before-login .nav-links button {
+  width: 140px;
+  height: 30px;
+  /* outline: #07689F; */
+  border: 1.5px solid #07689f;
+  color: #07689f;
+  background-color: white;
+}
+
+.before-login .nav-links button a {
+  text-decoration: none;
+  /* background-color: lightblue; */
+  color: #07689f;
+}
+
+@media (max-width: 900px) {
+  .before-login input {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .before-login .nav-links button {
+    width: 80px;
+    height: 30px;
+  }
+  .before-login .nav-links {
+    gap: 30px;
+  }
+}
+
+/* ..........After Login ............... */
+
+.after-login{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.after-login .dropdown #dropdown-basic-button{
+  width: 160px;
+}
+
+.after-login .dropdown a{
+  text-decoration: none;
+}
+
+.after-login .search input{
+  width: 280px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.after-login .menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.after-login .account-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.after-login .logout-btn{
+  width: 140px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #07689F ;
+  background-color: #07689F;
+  color: white;
+}
+
+.after-login .hamburger{
+  display: none;
+}
+
+
+
+@media(max-width: 1000px){
+  .after-login .search input{
+    display: none;
+  } 
+}
+
+@media(max-width: 800px){
+  .after-login .hamburger{
+    display: block;
+  }
+  .menu{
+    width: 100%;
+    position: absolute;
+    height: 40vh;
+    top: 14vh;
+    left: -100%;
+    gap: 20px;
+    flex-direction: column;
+    background-color: lightblue;
+    z-index: 9999999;
+  }
+  .active{
+    left: 0;
+  }
+}
+
+@media(max-width: 400px){
+  .after-login .dropdown #dropdown-basic-button{
+    width: 80px;
+  } 
+}

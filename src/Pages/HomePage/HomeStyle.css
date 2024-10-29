@@ -1,0 +1,300 @@
+/* .....Home-1..... */
+
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home .home-img img {
+  width: 100%;
+}
+
+.home .home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  color: white;
+  gap: 20px;
+}
+
+@media (max-width: 1000px) {
+  .home .home-content h1 {
+    font-size: 20px;
+  }
+  .home .home-content h2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home .home-content {
+    top: 160px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .home .home-content {
+    top: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home .home-content h1 {
+    font-size: 13px;
+  }
+  .home .home-content h2 {
+    font-size: 10px;
+  }
+  .home .home-content {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 300px) {
+  .home .home-content h1 {
+    font-size: 10px;
+  }
+  .home .home-content h2 {
+    font-size: 8px;
+  }
+}
+
+/* .....Home-2....... */
+
+.home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  position: relative;
+}
+
+.home1 .home1-cards {
+  width: 1000px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0) 0px 3px 8px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -40px;
+}
+
+.home1 .card {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(6, 24, 44, 0) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.4) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0) 0px 1px 0px inset;
+}
+
+.home1 .card1 {
+  width: 380px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(6, 24, 44, 0) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.4) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0) 0px 1px 0px inset;
+}
+.home1 .card1 .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home1 .card2 {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(6, 24, 44, 0) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.4) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0) 0px 1px 0px inset;
+}
+
+.home1 .card2 .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home1 button {
+  width: 160px;
+  height: 60px;
+  background-color: #07689f;
+  border: 1px solid #07689f;
+  color: white;
+  font-size: 18px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+@media (max-width: 1000px) {
+  .home1 {
+    display: none;
+  }
+}
+/* ........Home-3......... */
+
+.home2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 40px;
+  gap: 20px;
+}
+
+.home2 .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home2 .home2-img img {
+  padding: 5px 5px;
+}
+
+@media (max-width: 700px) {
+  .home2 .home2-img img {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .home2 .home2-img img {
+    width: 360px;
+  }
+  .home2 {
+    padding: 40px 0px;
+  }
+}
+
+/* ......Home-4........ */
+
+.home3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.home3 .cards {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  padding: 20px 0px;
+}
+
+.home3 .home3-heading {
+  text-align: center;
+}
+
+.home3 .cards p {
+  font-size: 12px;
+}
+
+.home3 .cards h4 {
+  color: #a6a6a6;
+}
+
+@media (max-width: 1150px) {
+  .home3 .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .home3 .cards p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .home3 .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .home3 .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* .....Home-5........ */
+
+.home4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.home4 .home4-heading {
+  text-align: center;
+}
+
+.home4 .home4-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 80px;
+}
+
+@media (max-width: 950px) {
+  .home4 .home4-card {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home4 .home4-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

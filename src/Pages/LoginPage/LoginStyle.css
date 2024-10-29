@@ -1,0 +1,77 @@
+/* .......LoginPage......... */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0px;
+}
+
+.login-page .form-login {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.login-page .form-login .input-box {
+  padding: 20px 0px;
+}
+
+.login-page .form-login .input-box input {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 20px 60px 20px 30px;
+}
+
+.login-page .form-login .input-box1 input {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 20px 60px 20px 30px;
+}
+
+.login-page .form-login button{
+    width: 180px;
+    height: 40px;
+    outline: none;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid cadetblue;
+    border-radius: 18px;
+    font-size: 20px;
+}
+
+.login-page .form-login .btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.login-page .form-login button:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 700px){
+    .login-page .form-login .input-box input {
+        font-size: 15px;
+        padding: 20px 20px 20px 30px;
+      }   
+}
